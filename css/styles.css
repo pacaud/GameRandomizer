@@ -1,0 +1,49 @@
+html, body {
+	border: 3px solid black;
+	height: 100%;
+	width: 100%;
+}
+
+rticle, aside, figcaption, figure,
+footer, header, main, nav, section,
+img { 
+   display: block;
+}
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+/*Random Wheel styles*/
+div#randomWheel {
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 700px;
+	margin-top: 100px;
+	position: absolute;
+	left: 500px;
+	width: 700px;
+}
+
+div.line {
+	border: 1px solid black;
+	position: relative;
+	top: 350px;
+	width: 100%;
+	margin: 0;
+}
+div.line:first-of-type {
+	rotate: 90deg;
+	width: 100%;
+}
